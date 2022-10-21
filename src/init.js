@@ -13,7 +13,7 @@ export default function initFactory(FB) {
   return function init(params = {}) {
     params = defaults({}, params, {
       xfbml: false,
-      version: 'v7.0',
+      version: 'v15.0',
     });
     FB.init(params);
   };
