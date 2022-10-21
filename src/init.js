@@ -13,7 +13,7 @@ export default function initFactory(FB) {
   return function init(params = {}) {
     params = defaults({}, params, {
       autoLogAppEvents : true,
-      xfbml            : true
+      xfbml            : true,
       version: 'v15.0',
     });
     FB.init(params);
